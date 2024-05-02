@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://kit.fontawesome.com/2a99e4e083.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span style="    color: #ff004f;
+                    ">P</span><span>rajitha K</span></h1>
+                <ul id="sidemenu">
+                    
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>Hi, I'm <span>PRAJITHA</span><br></h1>
+            </div>
+
+            <div class="wrapper">
+                <div class="static-txt">I'm a</div>
+                <ul class="dynamic-txts">
+                  <li><span>Frontend Developer</span></li>
+                  <li><span>Backend Developer</span></li>
+                  <li><span>FullStack Developer</span></li>
+                </ul>
+              </div>
+        </div>
+        <div class="intro">
+            I am a passionate Full Stack Developer with a year of hands-on experience in Python full stack web development and ongoing internship experience in the MERN stack. Specializing in crafting dynamic and user-friendly applications, I have expertise in Python, Django, React, and Next.js. With a keen eye for detail and a commitment to innovation, I thrive on turning ideas into impactful digital experiences. Let's collaborate and bring your projects to life!
+        </div>
+    </div>
+<!----------------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               
+                <div class="">
+                    <h1 class="sub-title">About Me</h1> 
+                    <div style="background: rgb(20 31 49);
+                    height: 1.5px;
+                    width: 70%;
+                    margin-left: 26%;
+                    margin-top: -3%;"></div>
+
+
+                    <div class="about-section">
+                        <p> <span>💻</span>Hands-On Experience: With a year of hands-on experience in Python full stack web development and ongoing internship experience in the MERN stack, I've honed my skills across a variety of technologies and frameworks.</p>
+                        <p><span>🌐</span>Expertise in Key Technologies: Specializing in crafting dynamic and user-friendly applications, I bring expertise in Python, Django, React, and Next.js. This proficiency enables me to create impactful digital experiences tailored to meet the needs of users and clients.</p>
+                        <p><span>🌟</span>Commitment to Innovation: With a keen eye for detail and a commitment to innovation, I thrive on turning ideas into impactful digital experiences. I am passionate about pushing boundaries and leveraging technology to bring projects to life in innovative and effective ways.</p>
+                    </div>
+
+
+                    </p>
+                       <div class="techstack">
+                        <h1>Tech Stack</h1><div></div>
+
+                       </div>
+
+                       <div class="work" id="qualification">
+                        <h2>Qualifications</h2>
+                        <div>
+                            <ul style="line-height: 34px;">
+                                <li><span>>>></span>Matser Of Computer Applications</li>
+                                <p>University Of Calicut</p>
+                                  <p style="color: gray;">12/2020 - 12/2022</p>
+                                <li><span>>>></span>Bsc Computer Science</li>
+                                <p>University Of Calicut</p>
+                                    <p style="color: gray;">06/2017 - 03/2020</p>
+                            </ul>
+                        </div>
+                    </div>
+
+                     
+
+                    <div class="tab-titles" style="margin-top: -11%;">
+                        
+                        <p class="tab-links active-link" onclick="opentab('skills')">Frontend</p>
+                        <p class="tab-links" onclick="opentab('experience')">Backend</p>
+                        <p class="tab-links" onclick="opentab('education')">Others</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="frontend">
+                            <div><img src="images/javascript--v1.png" alt=""><p>JavaScript</p></div>
+                            
+                            <div><img src="images/react.jpg" alt=""><p>ReactJs</p></div>
+                            <div><img src="images/html5.jpg" alt=""><p>Html5</p></div>
+                            <div><img src="images/css.jpg" alt=""><p>Css3</p></div>
+                            <div><img src="images/bootstrap.jpg" alt=""><p>Bootstrap</p></div>
+
+
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <div class="frontend">
+                            <div><img src="images/django.jpg" alt=""><p>Django</p></div>
+                            
+                            <div><img src="images/python.jpg" alt=""><p>Python</p></div>
+                          
+
+
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <div class="frontend">
+                            <div><img src="images/git.jpg" alt=""><p>Git</p></div>
+                            
+                            <div><img src="images/github.jpg" alt=""><p>GitHub</p></div>
+                           
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------------------services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Experiences</h1>
+            <div class="services-list">
+                <div>
+                    <img src="images/safe.png" alt="">
+                    <h6>Python FullStack Developer Intern <span>@Safe Technologies</span></h6>
+                    <ul class="intern">
+                        <li>Work with development teams and product managers to
+                            ideate software solutions.</li> 
+                            <li>Design client-side and server-side architecture.</li>
+                            <li>Build the front-end of applications through appealing visual
+                                design.</li> 
+                                <li>Develop and manage well-functioning databases and
+                                    applications.
+                                    </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/bro.jpg" alt="">
+                    
+                    <h6>FullStack Developer Intern <span>@BrotoType</span></h6>
+                    <ul class="intern">
+                        <li>Presently engaged in a MERN stack internship at Brototype, with a duration of two weeks and ongoing.</li>
+                        <li>Actively involved in developing web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack, gaining hands-on experience in real-world projects.</li>
+                       <li> Demonstrating rapid adaptation to project requirements, showcasing a proactive approach to mastering new technologies and frameworks within a short timeframe.</li>
+                       <li> Integrating seamlessly within the team environment, contributing effectively to development tasks, and actively participating in collaborative discussions and problem-solving sessions.</li>
+                    </ul>
+                </div>
+                
+
+
+            </div>
+
+        </div>
+    </div>
+    
+    <!---------------------------portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/foodro.png">
+                    <img src="images/foddro1.png">
+                    <div class="layer">
+                        <h3>Grocery-Online</h3>
+                        <p>"Bringing convenience to your doorstep, one click at a time - where groceries meet seamless online shopping."</p>
+                        <a href="https://prajithak.github.io/grocerysite/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pet1.png">
+                    <img src="images/pet2.png">
+
+                    <div class="layer">
+                        <h3>Pet-Sell</h3>
+                        <p>"Where pets are family, and happiness is a wag away."</p>
+                        <a href="https://prajithak.github.io/petsite/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-----------------------Contact--------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>prajithakrishnan86@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7025781044</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/PrajithaK"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/prajitha-k/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div> 
+                    <a href="D:\portfolio\images\prajiresume.pdf" download  class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form id="submit-form" action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>copyright @ Prajitha. Made with <i class="fa-solid fa-heart"></i> by my..</p>
+            </div>
+        </div>
+    </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>  
+  <script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+  
+  </script>
+
+
+
+
+<script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbyuRuj1nGVbdZwpyAIWN9pwDPndCgLXCf71m5yKs-KGH2zSKFgcOw8REwumPFoRSVwH8A/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+  <!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbybf4AD2PSi-80HJVqG6XNPogBRjlEtXewWMtd8hvb5bGopYdAbAin0c6Yu5crfu3f-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> -->
+</body>
+</html>
